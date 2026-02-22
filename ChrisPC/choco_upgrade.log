@@ -1,0 +1,43 @@
+Chocolatey v2.6.0
+Upgrading the following packages:
+all
+By upgrading, you accept licenses for the packages.
+7zip v26.0.0 is the latest version available based on your source(s).
+7zip.install v26.0.0 is the latest version available based on your source(s).
+blitz.gg v2.1.505 is the latest version available based on your source(s).
+brave v1.87.190 is the latest version available based on your source(s).
+chocolatey v2.6.0 is the latest version available based on your source(s).
+chocolatey-compatibility.extension v1.0.0 is the latest version available based on your source(s).
+chocolatey-core.extension v1.4.0 is the latest version available based on your source(s).
+cpu-z v2.18.0 is the latest version available based on your source(s).
+cpu-z.install v2.18.0.20260109 is the latest version available based on your source(s).
+discord v1.0.9224 is the latest version available based on your source(s).
+
+You have discord.install v1.0.9224 installed. Version 1.0.9225 is available based on your source(s).
+[NuGet] One or more unresolved package dependency constraints detected in the Chocolatey lib folder. All dependency constraints must be resolved to add or update packages. If these packages are being updated this message may be ignored, if not the following error(s) may be blocking the current package operation: 'discord 1.0.9224 constraint: discord.install (= 1.0.9224)'
+Re-attempting package dependency resolution using additional available package information...
+[NuGet] One or more unresolved package dependency constraints detected in the Chocolatey lib folder. All dependency constraints must be resolved to add or update packages. If these packages are being updated this message may be ignored, if not the following error(s) may be blocking the current package operation: 'discord 1.0.9224 constraint: discord.install (= 1.0.9224)'
+A newer version of discord.install (v1.0.9224) is already installed.
+ Use --allow-downgrade or --force to attempt to install older versions.
+Failed to install discord because a previous dependency failed.
+Firefox v147.0.4 is the latest version available based on your source(s).
+github-desktop v3.5.5 is the latest version available based on your source(s).
+jellyfin-media-player v1.12.0 is the latest version available based on your source(s).
+keepass v2.60.0 is the latest version available based on your source(s).
+keepass.install v2.60.0 is the latest version available based on your source(s).
+mpc-hc-clsid2 v2.6.2 is the latest version available based on your source(s).
+nvidia-app v11.0.6.383 is the latest version available based on your source(s).
+signal v7.90.0 is the latest version available based on your source(s).
+steam v3.10.91.91241028 is the latest version available based on your source(s).
+synology-activebackup-for-business-agent v3.1.0.4967 is the latest version available based on your source(s).
+visualstudiocode v1.23.1.20180730 is the latest version available based on your source(s).
+vscode v1.109.5 is the latest version available based on your source(s).
+vscode.install v1.109.5 is the latest version available based on your source(s).
+
+Chocolatey upgraded 0/24 packages. 2 packages failed.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+Failures
+ - discord - Failed to install discord because a previous dependency failed.
+ - discord.install - A newer version of discord.install (v1.0.9224) is already installed.
+ Use --allow-downgrade or --force to attempt to install older versions.

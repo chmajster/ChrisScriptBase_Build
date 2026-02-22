@@ -8,3 +8,8 @@ nvidia-app
 signal
 github-desktop
 firefox
+jellyfin-media-player
+keepass
+brave
+blitz.gg
+amd-ryzen-chipset
