@@ -3,3 +3,8 @@ cpu-z
 discord
 visualstudiocode
 mpc-hc-clsid2
+synology-activebackup-for-business-agent
+nvidia-app
+signal
+github-desktop
+firefox
