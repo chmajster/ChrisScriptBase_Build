@@ -42,7 +42,8 @@ apt-get install -y \
   software-properties-common \
   python3 \
   python3-pip \
-  ansible
+  ansible \
+  openssh-server
 
 echo "[3/6] Ustawianie hasla root..."
 echo "root:1" | chpasswd
@@ -72,7 +73,10 @@ else
   echo "Nie wykryto Proxmox/KVM ani VMware. Pomijam instalacje guest tools."
 fi
 
-echo "[6/6] Informacja o Ansible Tower..."
+echo "[6/7] Wlaczanie SSH..."
+systemctl enable --now ssh
+
+echo "[7/7] Informacja o Ansible Tower..."
 cat <<'INFO'
 Ten skrypt instaluje wymagania bazowe i Ansible.
 Ansible Tower (obecnie Red Hat Ansible Automation Platform) wymaga
